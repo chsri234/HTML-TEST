@@ -1,0 +1,306 @@
+/* general */
+body {
+    background-image: url('../images/Layer2.png');
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 440px) {
+  body{
+    background-image: url('../images/Layer6.png');
+    margin: 0;
+    padding: 0;
+  }
+} 
+
+/* header */
+
+.top-nav.nav {
+  background-color: #392b3c;
+  height: 60px;
+  line-height: 40px;
+}
+
+@media(max-width: 400px) {
+  .top-nav {
+    display: none;
+  }
+}
+
+
+.icon-color {
+  color: #dddddd;
+}
+
+.d-lg-block .bg-light {
+  background-color: #ff0f0f !important;
+}
+
+.bottom-nav .navbar .nav-link {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.bottom-nav .navbar .nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.second-nav .bg-light {
+  background-color: #392b3c !important;
+}
+
+.second-nav .navbar .nav-link {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.second-nav .navbar .nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.second-nav .mobile-nav li {
+  list-style: none;
+  float: left;
+  margin-top: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+
+
+#design {
+  background-image: url(../images/Shape3copy7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  padding-top: 100px;
+}
+
+
+
+.latest-text {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #25120c;
+    font-style: italic;
+    text-align: right;
+}
+
+.design-text {
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #ff0f0f;
+    text-align: right;
+}
+
+
+#speedo {
+  background-color: #99a1a2;
+  background-image: url(../images/Layer22.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+
+}
+
+
+@media (max-width: 400px) {
+
+  .latest-text {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-style: italic;
+    text-align: left;
+}
+
+.design-text {
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #ff0f0f;
+    text-align: left;
+}
+
+.mobile-style {
+  background-color: #fff;
+  border-radius: 5%;
+}
+
+}
+
+.demo1 .owl-nav .owl-prev span {
+  position: absolute;
+    top: 30%;
+    left: 0
+}
+.demo1 .owl-nav .owl-next span {
+  position: absolute;
+    top: 30%;
+    right: 0
+}
+
+@media(max-width: 360px) {
+  .demo .owl-nav .owl-prev span {
+    position: absolute;
+    top: 40%;
+    left: 0
+  }
+  .demo .owl-nav .owl-next span {
+    position: absolute;
+    top: 40%;
+    right: 0
+  }
+}
+
+.demo .owl-nav .owl-prev span {
+  position: relative;
+
+}
+
+.card-text {
+  color: #ff0f0f;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card-title {
+  color: #25120c;
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
+}
+.img {
+  width:  100px;
+  height: 100px;
+}
+
+
+#swim {
+  height: 620px;
+  background-color: #392b3c;
+   
+}
+
+.swim-text {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  font-style: italic;
+  text-align: right;
+  margin-top: 250px;
+}
+
+.rhythm-text {
+  font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #ff0f0f;
+    text-align: right;
+}
+
+.layer12 {
+  position: absolute;
+  top: 10%;
+  left: 36%;
+  
+}
+
+.layer12copy {
+  position: absolute;
+  top: 10%;
+  left:32%
+}
+
+.layer14 {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+.layer13 {
+  position: absolute;
+  top: 5%;
+  left: 38%
+}
+
+.layer161 {
+  position: absolute;
+  top: 5%;
+  left: 45% 
+}
+
+.mini-carousel {
+  margin-top: 100px;
+}
+
+.card-title-white {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.img-layout {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+.img-layout1 {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.img-pic {
+  position: absolute;
+  top: 50%;
+  left: 24%
+}
+
+.img-pic1 {
+  position: absolute;
+  top: 17%;
+  left: 17%
+}
+
+.img-pic2 {
+  position: absolute;
+  top: 17%;
+  left: 9%
+}
+
+.img-pic3 {
+  position: absolute;
+  top: 17%;
+  left: 0
+}
+
+.fitness-text {
+  color: #ff0f0f;
+  position: absolute;
+  left: 37%;
+  bottom: 10%;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+
+}
+
+
+
